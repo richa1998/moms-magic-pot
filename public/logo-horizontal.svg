@@ -1,0 +1,42 @@
+﻿<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Mom's Magic Pot</title>
+  <desc id="logoDesc">Logo with a cooking pot and accessories.</desc>
+  <defs>
+    <linearGradient id="potBody" x1="26" y1="34" x2="102" y2="97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8F8C8"/>
+      <stop offset="1" stop-color="#72B67A"/>
+    </linearGradient>
+    <linearGradient id="steam" x1="56" y1="8" x2="84" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFD8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#CBECC4" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="textFill" x1="120" y1="24" x2="360" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAFCD7"/>
+      <stop offset="1" stop-color="#A9DCA9"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8 6)">
+    <path d="M53 20C57 11 67 11 71 20C74 26 73 32 68 36" stroke="url(#steam)" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+    <path d="M70 16C74 8 83 8 87 16C90 21 88 27 84 31" stroke="url(#steam)" stroke-width="3.8" stroke-linecap="round" fill="none"/>
+
+    <ellipse cx="67" cy="42" rx="23" ry="6" fill="#3A6B47"/>
+    <rect x="44" y="42" width="46" height="9" rx="4.5" fill="#2E563C"/>
+    <circle cx="67" cy="36" r="4" fill="#DFF4C2"/>
+
+    <path d="M30 51H104V67C104 83 91 97 67 97C43 97 30 83 30 67V51Z" fill="url(#potBody)"/>
+    <path d="M30 51H104V67C104 83 91 97 67 97C43 97 30 83 30 67V51Z" stroke="#F3FFE4" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M23 59C16 59 12 64 12 70C12 76 16 81 23 81" stroke="#6FAF77" stroke-width="4.7" stroke-linecap="round" fill="none"/>
+    <path d="M111 59C118 59 122 64 122 70C122 76 118 81 111 81" stroke="#6FAF77" stroke-width="4.7" stroke-linecap="round" fill="none"/>
+
+    <g stroke="#BDE6B5" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.92">
+      <path d="M42 101L58 87"/>
+      <ellipse cx="39" cy="104" rx="5" ry="3.4" transform="rotate(-35 39 104)"/>
+      <path d="M88 101L72 87"/>
+      <rect x="89" y="98" width="8" height="6" rx="1.5" transform="rotate(34 93 101)"/>
+    </g>
+  </g>
+
+  <text x="132" y="56" fill="#F3FFF2" font-size="31" font-weight="600" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif">Mom's</text>
+  <text x="132" y="91" fill="url(#textFill)" font-size="43" font-weight="700" font-family="Georgia, Times New Roman, serif" letter-spacing="0.3">Magic Pot</text>
+</svg>

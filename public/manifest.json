@@ -1,0 +1,18 @@
+﻿{
+  "name": "Mom's Magic Pot",
+  "short_name": "Magic Pot",
+  "description": "Mom's Magic Pot, Amraiwadi Ahmedabad. Order sandwiches, frankies, snacks and fries online.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F5EC",
+  "theme_color": "#F7F5EC",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
+

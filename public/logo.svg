@@ -1,0 +1,40 @@
+﻿<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="iconTitle iconDesc">
+  <title id="iconTitle">Mom's Magic Pot Icon</title>
+  <desc id="iconDesc">Cooking pot with spoon and spatula.</desc>
+  <defs>
+    <linearGradient id="bg" x1="76" y1="50" x2="436" y2="462" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#173627"/>
+      <stop offset="1" stop-color="#0F1A13"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="156" y1="182" x2="352" y2="372" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8F8C8"/>
+      <stop offset="1" stop-color="#72B67A"/>
+    </linearGradient>
+    <linearGradient id="steam" x1="224" y1="102" x2="298" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFD8" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#CBECC4" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" stroke="#BFE7C6" stroke-opacity="0.34" stroke-width="8"/>
+
+  <path d="M228 144C236 128 253 128 261 144C267 155 266 169 258 176" stroke="url(#steam)" stroke-width="13" stroke-linecap="round" fill="none"/>
+  <path d="M270 132C278 116 296 116 303 132C308 141 306 154 299 161" stroke="url(#steam)" stroke-width="11" stroke-linecap="round" fill="none"/>
+
+  <ellipse cx="256" cy="204" rx="82" ry="22" fill="#3A6B47"/>
+  <rect x="174" y="204" width="164" height="26" rx="13" fill="#2E563C"/>
+  <circle cx="256" cy="188" r="12" fill="#DFF4C2"/>
+
+  <path d="M148 230H364V280C364 339 317 386 256 386C195 386 148 339 148 280V230Z" fill="url(#pot)"/>
+  <path d="M148 230H364V280C364 339 317 386 256 386C195 386 148 339 148 280V230Z" stroke="#F3FFE4" stroke-opacity="0.42" stroke-width="6"/>
+  <path d="M132 252C113 252 99 267 99 286C99 305 113 320 132 320" stroke="#6FAF77" stroke-width="13" stroke-linecap="round" fill="none"/>
+  <path d="M380 252C399 252 413 267 413 286C413 305 399 320 380 320" stroke="#6FAF77" stroke-width="13" stroke-linecap="round" fill="none"/>
+
+  <g stroke="#BDE6B5" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.95">
+    <path d="M194 426L240 382"/>
+    <ellipse cx="187" cy="434" rx="15" ry="10" transform="rotate(-33 187 434)"/>
+    <path d="M318 426L272 382"/>
+    <rect x="319" y="417" width="24" height="16" rx="3" transform="rotate(34 331 425)"/>
+  </g>
+</svg>

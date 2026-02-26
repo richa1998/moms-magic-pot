@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="cheeseTitle">
+  <title id="cheeseTitle">Cheese Bites</title>
+  <rect width="500" height="500" fill="#0B0F1A"/>
+  <circle cx="180" cy="250" r="60" fill="#FF7A00" opacity="0.7"/>
+  <circle cx="320" cy="250" r="60" fill="#00FFD1" opacity="0.7"/>
+  <circle cx="250" cy="180" r="60" fill="#8B5CF6" opacity="0.7"/>
+  <circle cx="250" cy="320" r="60" fill="#ffd166" opacity="0.9"/>
+</svg>

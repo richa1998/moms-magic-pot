@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="wedgesTitle">
+  <title id="wedgesTitle">Masala Wedges</title>
+  <rect width="500" height="500" fill="#0B0F1A"/>
+  <polygon points="130,340 250,150 370,340" fill="#8B5CF6" opacity="0.24"/>
+  <polygon points="170,320 250,190 330,320" fill="#ffc26a"/>
+  <circle cx="250" cy="280" r="14" fill="#ff7a00"/>
+</svg>

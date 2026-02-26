@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="periTitle">
+  <title id="periTitle">Peri Frankie</title>
+  <rect width="500" height="500" fill="#0B0F1A"/>
+  <ellipse cx="250" cy="250" rx="170" ry="90" fill="#8B5CF6" opacity="0.24"/>
+  <rect x="120" y="215" width="260" height="100" rx="45" fill="#f5d2a1"/>
+  <rect x="148" y="248" width="205" height="36" rx="18" fill="#ff6b00"/>
+</svg>

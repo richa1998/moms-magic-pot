@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="crispyTitle">
+  <title id="crispyTitle">Crispy Fries</title>
+  <rect width="500" height="500" fill="#0B0F1A"/>
+  <rect x="165" y="180" width="170" height="180" rx="22" fill="#00FFD1" opacity="0.22"/>
+  <rect x="188" y="150" width="20" height="170" rx="10" fill="#ffcf70"/>
+  <rect x="214" y="148" width="20" height="172" rx="10" fill="#ffcf70"/>
+  <rect x="240" y="152" width="20" height="168" rx="10" fill="#ffcf70"/>
+  <rect x="266" y="149" width="20" height="171" rx="10" fill="#ffcf70"/>
+  <rect x="292" y="151" width="20" height="169" rx="10" fill="#ffcf70"/>
+</svg>

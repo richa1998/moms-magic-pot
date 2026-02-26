@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="paneerTitle">
+  <title id="paneerTitle">Paneer Sandwich</title>
+  <rect width="500" height="500" fill="#0B0F1A"/>
+  <circle cx="250" cy="220" r="130" fill="#00FFD1" opacity="0.22"/>
+  <rect x="130" y="190" width="240" height="120" rx="20" fill="#f5d8a5"/>
+  <rect x="130" y="238" width="240" height="24" fill="#6ee7b7"/>
+</svg>

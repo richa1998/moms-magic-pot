@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="frankieTitle">
+  <title id="frankieTitle">Classic Frankie</title>
+  <rect width="500" height="500" fill="#0B0F1A"/>
+  <ellipse cx="250" cy="260" rx="170" ry="90" fill="#FF7A00" opacity="0.24"/>
+  <rect x="120" y="220" width="260" height="90" rx="40" fill="#f8d6a8"/>
+  <rect x="150" y="243" width="200" height="42" rx="21" fill="#8B5CF6"/>
+</svg>

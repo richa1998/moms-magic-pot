@@ -1,0 +1,31 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="favTitle">
+  <title id="favTitle">Mom's Magic Pot Favicon</title>
+  <defs>
+    <linearGradient id="favBg" x1="22" y1="10" x2="112" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#173627"/>
+      <stop offset="1" stop-color="#0F1A13"/>
+    </linearGradient>
+    <linearGradient id="favPot" x1="36" y1="42" x2="90" y2="93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8F8C8"/>
+      <stop offset="1" stop-color="#72B67A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#favBg)"/>
+  <path d="M52 35C54 30 60 30 62 35C64 39 63 43 60 45" stroke="#DDF7CC" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+  <path d="M62 31C64 26 70 26 72 31C74 34 73 38 70 40" stroke="#CBECC4" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <ellipse cx="64" cy="50" rx="20" ry="6" fill="#3A6B47"/>
+  <rect x="44" y="50" width="40" height="7" rx="3.5" fill="#2E563C"/>
+  <circle cx="64" cy="45" r="3" fill="#DFF4C2"/>
+  <path d="M36 57H92V69C92 82 80 92 64 92C48 92 36 82 36 69V57Z" fill="url(#favPot)"/>
+  <path d="M31 62C27 62 24 66 24 70C24 74 27 78 31 78" stroke="#6FAF77" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M97 62C101 62 104 66 104 70C104 74 101 78 97 78" stroke="#6FAF77" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <g stroke="#BDE6B5" stroke-width="2.8" stroke-linecap="round" fill="none" opacity="0.95">
+    <path d="M50 102L57 94"/>
+    <ellipse cx="47" cy="104" rx="3" ry="2" transform="rotate(-34 47 104)"/>
+    <path d="M78 102L71 94"/>
+    <rect x="78" y="100" width="5" height="3.5" rx="0.8" transform="rotate(34 80.5 101.75)"/>
+  </g>
+</svg>
