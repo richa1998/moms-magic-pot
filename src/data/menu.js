@@ -7,8 +7,8 @@ const rawMenuItems = [
     category: 'Sandwiches',
     name: 'Veg Sandwich',
     description: 'Savor our Classic Veg Sandwich made with fresh, crunchy vegetables layered between soft bread with creamy sauces and a hint of spices. A wholesome, light, and refreshing snack or quick meal-perfect for breakfast, lunch, or anytime cravings. A favorite from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '179',
+    discountedPrice: '89',
     image: '/images/menu/sandwiches-veg-sandwich.png',
   },
   {
@@ -16,8 +16,8 @@ const rawMenuItems = [
     category: 'Sandwiches',
     name: 'Desi Masala Grilled Sandwich',
     description: 'Savor our Desi Masala Grilled Sandwich-soft bread loaded with spiced mashed potato and tender beans, grilled to golden perfection. A perfect blend of Indian spices, ideal for a quick snack or meal. One of the most loved sandwiches from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '199',
+    discountedPrice: '99',
     image: '/images/menu/sandwiches-desi-masala-grilled-sandwich.png',
   },
   {
@@ -25,8 +25,8 @@ const rawMenuItems = [
     category: 'Sandwiches',
     name: 'Cheese Burst Grilled Sandwich',
     description: 'Indulge in our Cheese Burst Grilled Sandwich-soft bread layered with fresh vegetables and loaded with gooey melted cheese, grilled to golden perfection. A delightful combination of crispiness, cheesy goodness, and fresh veggies, perfect as a quick snack or meal. One of the most loved sandwiches from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '299',
+    discountedPrice: '149',
     image: '/images/menu/sandwiches-cheese-burst-grilled-sandwich.png',
   },
   {
@@ -34,8 +34,8 @@ const rawMenuItems = [
     category: 'Sandwiches',
     name: 'Cheese Corn Mayo Sandwich',
     description: 'Indulge in our Cheese Corn Mayo Sandwich-soft bread layered with sweet corn, fresh vegetables, creamy mayo, and melted cheese, grilled to perfection. A perfect blend of creamy, sweet, and cheesy flavors, ideal for a quick snack or light meal. One of the most loved sandwiches from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '279',
+    discountedPrice: '139',
     image: '/images/menu/sandwiches-cheese-corn-mayo-sandwich.png',
   },
   {
@@ -43,8 +43,8 @@ const rawMenuItems = [
     category: 'Sandwiches',
     name: 'Pizza Sandwich',
     description: '[Veg preparation] Delicious veg pizza sandwich loaded with fresh vegetables, pizza sauce and Mozzarella cheese, grilled till crispy and cheesy. This veg pizza sandwich delivers classic pizza taste in a perfectly toasted sandwich form.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '339',
+    discountedPrice: '169',
     image: '/images/menu/sandwiches-pizza-sandwich.png',
   },
   {
@@ -52,8 +52,8 @@ const rawMenuItems = [
     category: 'Snacks',
     name: 'Samosa',
     description: 'Enjoy our Crispy Veg Samosa-a golden, flaky pastry filled with spiced mashed potatoes, green peas, and aromatic Indian spices. Perfect as a snack, starter, or tea-time treat, this traditional Indian favorite is freshly made and packed with flavor. One of the most loved snacks from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '59',
+    discountedPrice: '30',
     image: '/images/menu/snacks-samosa.png',
   },
   {
@@ -61,8 +61,8 @@ const rawMenuItems = [
     category: 'Snacks',
     name: 'Kachori',
     description: '[veg preparation] Relish our Crispy Veg Kachori-a golden, flaky pastry stuffed with spiced lentils and aromatic Indian spices. Perfect as a snack or tea-time treat, this traditional Indian favorite delivers a burst of flavor in every bite. Freshly made and one of the most loved snacks from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '59',
+    discountedPrice: '30',
     image: '/images/menu/snacks-kachori.png',
   },
   {
@@ -70,8 +70,8 @@ const rawMenuItems = [
     category: 'Snacks',
     name: 'Dahi Kachori Chaat',
     description: 'Indulge in our Dahi Kachori Chaat-crispy kachoris topped with creamy yogurt, tangy chutney, fresh spices with onion-tomato, and crunchy sev - mamri. A perfect balance of sweet, tangy, and spicy flavors in every bite. Freshly prepared and one of the most loved chaat items from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '119',
+    discountedPrice: '60',
     image: '/images/menu/snacks-dahi-kachori-chaat.png',
   },
   {
@@ -79,8 +79,8 @@ const rawMenuItems = [
     category: 'Snacks',
     name: 'Dahi Samosa Chaat',
     description: 'Delight in our Dahi Samosa Chaat-crispy samosas topped with creamy yogurt, tangy chutney, fresh spices with onion-tomato, and crunchy sev-mamri. A perfect blend of sweet, tangy, and spicy flavors in every bite. Freshly prepared and one of the most loved chaat items from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '119',
+    discountedPrice: '60',
     image: '/images/menu/snacks-dahi-samosa-chaat.png',
   },
   {
@@ -88,8 +88,8 @@ const rawMenuItems = [
     category: 'Snacks',
     name: 'Bhel',
     description: 'Enjoy our classic Bhel-a mix of crispy puffed rice, fresh vegetables, tangy chutney, spicy masalas, and crunchy sev-mamri. Perfectly balanced between sweet, tangy, and spicy flavors, this Indian street food favorite is light, refreshing, and bursting with flavor. Freshly prepared and a must-try from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '119',
+    discountedPrice: '60',
     image: '/images/menu/snacks-bhel.png',
   },
   {
@@ -97,8 +97,8 @@ const rawMenuItems = [
     category: 'Frankies',
     name: 'Veg Frankie',
     description: 'Relish our Veg Frankie made with a soft, warm wrap, stuffed with a spicy and flavorful mix of fresh vegetables and tangy sauces and mayo. Perfect as a quick meal or snack, this Indian-style wrap is both delicious and filling. A must-try street-food favorite from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '189',
+    discountedPrice: '95',
     image: '/images/menu/frankies-veg-frankie.png',
   },
   {
@@ -106,8 +106,8 @@ const rawMenuItems = [
     category: 'Frankies',
     name: 'Cheese Veg Frankie',
     description: 'Indulge in our Cheese Veg Frankie-a soft wrap loaded with a spicy mix of fresh vegetables and melted cheese for the perfect creamy crunch. Served warm and packed with flavor, this Indian-style street food wrap is a must-try for cheese lovers and quick meal seekers. One of the most loved items from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '228',
+    discountedPrice: '115',
     image: '/images/menu/frankies-cheese-veg-frankie.png',
   },
   {
@@ -115,8 +115,8 @@ const rawMenuItems = [
     category: 'Frankies',
     name: 'Cheese Corn Frankie',
     description: 'Treat yourself to our Cheese Corn Frankie-a soft wrap stuffed with sweet corn, fresh vegetables, and gooey melted cheese. Warm, flavorful, and perfectly balanced between sweet corn crunch and cheesy goodness, this Indian-style street food wrap is a must-try snack or quick meal. A favorite from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '249',
+    discountedPrice: '125',
     image: '/images/menu/frankies-cheese-corn-frankie.png',
   },
   {
@@ -124,8 +124,8 @@ const rawMenuItems = [
     category: 'Moms Magic Specials',
     name: 'Classic Baked Lasagna',
     description: '[veg preparation] Relish our classic baked veg lasagna made with perfectly layered pasta sheets, rich tomato sauce, fresh vegetables, creamy white sauce, topped with melted cheese and baked to perfection. A wholesome, cheesy Italian style comfort meal with authentic flavors, perfect for lunch or dinner cravings. One of the most loved baked dishes from Moms Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '499',
+    discountedPrice: '250',
     image: '/images/menu/moms-magic-specials-classic-baked-lasagna.png',
   },
   {
@@ -133,8 +133,8 @@ const rawMenuItems = [
     category: 'Moms Magic Specials',
     name: 'Maggie Lasagna Fusion',
     description: '[veg preparation] Experience our signature Maggie Lasagna Fusion-a delicious twist combining spicy masala Maggie layers with rich tomato sauce, creamy white sauce, fresh veggies, and melted cheese, baked to perfection. This unique Indo-Italian fusion dish delivers comfort, spice, and cheesy goodness in every bite. A must-try innovative baked special from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '499',
+    discountedPrice: '250',
     image: '/images/menu/moms-magic-specials-maggie-lasagna-fusion.png',
   },
   {
@@ -142,8 +142,8 @@ const rawMenuItems = [
     category: 'Moms Magic Specials',
     name: 'Cheesy Baked Veg Macaroni',
     description: 'Delight in our Cheesy Baked Veg Macaroni made with perfectly cooked macaroni pasta, fresh vegetables, rich tomato and creamy white sauce, topped with loads of melted cheese and oven baked to perfection. A warm, comforting, and cheesy baked pasta dish-perfect for lunch or dinner cravings. One of the most loved baked pasta dishes from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '459',
+    discountedPrice: '230',
     image: '/images/menu/moms-magic-specials-cheesy-baked-veg-macaroni.png',
   },
   {
@@ -151,8 +151,8 @@ const rawMenuItems = [
     category: 'Moms Magic Specials',
     name: 'Veg Uttapam',
     description: 'Enjoy our soft and fluffy suji uttapam made from semolina [suji] batter, topped with fresh vegetables and mild spices. Light, healthy, quick to digest, this South Indian delight is perfect for breakfast, brunch or a wholesome snack. Served with tomato sauce, its a favorite comfort dish from Moms Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '118',
+    discountedPrice: '60',
     image: '/images/menu/moms-magic-specials-veg-uttapam.png',
   },
   {
@@ -160,8 +160,8 @@ const rawMenuItems = [
     category: 'Moms Magic Specials',
     name: 'Vagharelo Rotlo',
     description: 'Authentic Gujarati vagharelo rotlo made in traditional Kathiyawadi style with fresh bajra rotla, tossed in garlic, onion & special homemade masala. A true village style comfort food packed with bold flavours and smoky taste. Perfect for Guajarati food lovers craving homemade, spicy and authentic rotlo experience.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '260',
+    discountedPrice: '130',
     image: '/images/menu/moms-magic-specials-vagharelo-rotlo.jpg',
   },
   {
@@ -169,8 +169,8 @@ const rawMenuItems = [
     category: 'Drinks (Beverages)',
     name: 'Cold Coffee',
     description: 'Refresh yourself with our Classic Cold Coffee made using premium coffee blend, chilled milk. Perfectly balanced sweetness with bold coffee flavor-an energizing and refreshing cold coffee loved by coffee lovers. One of the best-selling beverages from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '219',
+    discountedPrice: '109',
     image: '/images/menu/drinks-beverages-cold-coffee.png',
   },
   {
@@ -178,8 +178,8 @@ const rawMenuItems = [
     category: 'Drinks (Beverages)',
     name: 'Oreo Shake',
     description: 'Enjoy our thick & creamy Oreo Shake made with crushed Oreo cookies, chilled milk, rich chocolate blend. Perfectly balanced sweetness with crunchy Oreo bits in every sip. A refreshing dessert milkshake for Oreo lovers-one of the most loved shakes from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '259',
+    discountedPrice: '130',
     image: '/images/menu/drinks-beverages-oreo-shake.png',
   },
   {
@@ -187,8 +187,8 @@ const rawMenuItems = [
     category: 'Drinks (Beverages)',
     name: 'KitKat Shake',
     description: 'Indulge in our rich & creamy KitKat Chocolate Shake made with crushed KitKat bars, chilled milk, premium chocolate blend. A thick, refreshing milkshake with the perfect crunch and chocolatey goodness-ideal for dessert lovers and shake cravings anytime. Best-selling chocolate shake from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '279',
+    discountedPrice: '140',
     image: '/images/menu/drinks-beverages-kitkat-shake.png',
   },
   {
@@ -196,8 +196,8 @@ const rawMenuItems = [
     category: 'Fries',
     name: 'French Fries [Farali]',
     description: 'Pure farali French fries made with boiled potatoes, oil and a pinch of salt only no flour, no additives, no spices. Light, crispy and perfect for vrat and fasting days at Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '219',
+    discountedPrice: '109',
     image: '/images/menu/fries-french-fries-farali.jpg',
   },
   {
@@ -205,8 +205,8 @@ const rawMenuItems = [
     category: 'Fries',
     name: 'Masala French Fries',
     description: 'Crispy Masala French Fries tossed in our special homemade Indian spice mix. Perfectly fried golden potatoes seasoned with chatpata masala, making it a spicy, crunchy and irresistible snack. Best enjoyed as an evening snack, party starter, or comfort food. A customer-favorite at Mom\'s Magic Pot, freshly prepared and full of desi flavors.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '219',
+    discountedPrice: '109',
     image: '/images/menu/fries-masala-french-fries.png',
   },
   {
@@ -214,8 +214,8 @@ const rawMenuItems = [
     category: 'Fries',
     name: 'Cheese French Fries',
     description: 'Loaded Cheese French Fries made with crispy golden fries topped with rich, creamy melted cheese. A perfect blend of crunch and cheesy goodness, making it an all-time favorite veg snack and fast food option. Ideal for evening cravings, party snacks, or comfort food. Freshly prepared at Mom\'s Magic Pot for ultimate taste and quality.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '299',
+    discountedPrice: '150',
     image: '/images/menu/fries-cheese-french-fries.png',
   },
   {
@@ -223,8 +223,8 @@ const rawMenuItems = [
     category: 'Fries',
     name: 'Peri Peri French Fries',
     description: '[Veg preparation] Crispy golden peri peri French fries made from premium potatoes and tossed in bold, spicy peri peri seasoning. These fries deliver the perfect balance of crunch, heat and flavor, making them an ideal spicy veg snack and fast food favorite. Perfect for evening cravings, party snacks or a quick bite. Freshly prepared at Mom\'s Magic Pot, our peri peri fries are loved by spice lovers.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '279',
+    discountedPrice: '140',
     image: '/images/trending-banner.jpg',
   },
   {
@@ -232,8 +232,8 @@ const rawMenuItems = [
     category: 'Fries',
     name: 'French Fries Chaat',
     description: '[Veg preparation] Crispy golden French fries chaat made with freshly fried potato fries and mixed with a colorful blend of fresh vegetables. Lightly tossed with creamy mayonnaise, aromatic Indian chaat spices and mild seasoning, this dish delivers a perfect balance of crunchy, creamy, tangy and mildly spicy flavors.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '319',
+    discountedPrice: '160',
     image: '/images/trending-banner.jpg',
   },
   {
@@ -241,39 +241,20 @@ const rawMenuItems = [
     category: 'Fries',
     name: 'Mayonnaise French Fries',
     description: 'Crispy fries served with creamy mayonnaise, offering a smooth and rich flavor that balances the crunch perfectly. Our mayonnaise French fries are a popular veg snack choice and a must try for those who love creamy fast food options. Fresh and delicious from Mom\'s Magic Pot.',
-    price: 'See on Zomato',
-    discountedPrice: 'Order Online',
+    price: '299',
+    discountedPrice: '150',
     image: '/images/trending-banner.jpg',
   },
 ]
 
-const categoryPricingConfig = {
-  Sandwiches: { base: 199, step: 0, discountStart: 50 },
-  Snacks: { base: 149, step: 10, discountStart: 50 },
-  Frankies: { base: 179, step: 0, discountStart: 50 },
-  'Moms Magic Specials': { base: 249, step: 20, discountStart: 50 },
-  'Drinks (Beverages)': { base: 99, step: 10, discountStart: 50 },
-  Fries: { base: 279, step: 0, discountStart: 50 },
-}
-
-const categoryItemCounter = {}
-
 export const menuItems = rawMenuItems.map((item, index) => {
-  const categoryCount = categoryItemCounter[item.category] ?? 0
-  const config = categoryPricingConfig[item.category] ?? { base: 119, step: 12, discountStart: 50 }
-  const originalPrice = config.base + categoryCount * config.step
-  const discountPercent = 50 // Flat 50% as requested
-  const finalPrice = Math.max(39, Math.round(originalPrice * (1 - discountPercent / 100)))
-
-  categoryItemCounter[item.category] = categoryCount + 1
-
   return {
     ...item,
     sortOrder: index + 1,
-    originalPrice,
-    discountPercent,
-    finalPrice,
-    priceLabel: `Rs. ${finalPrice}`,
-    originalPriceLabel: `Rs. ${originalPrice}`,
+    originalPrice: item.price,
+    discountPercent: 0,
+    finalPrice: item.price,
+    priceLabel: `Rs. ${item.discountedPrice}`,
+    originalPriceLabel: `Rs. ${item.price}`,
   }
 })

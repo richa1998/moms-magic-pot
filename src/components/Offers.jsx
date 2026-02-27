@@ -31,10 +31,7 @@ export default function Offers() {
             <p className="text-xs font-black uppercase tracking-[0.4em] text-primary">Crowd Favorites</p>
             <h2 className="mt-4 font-heading text-5xl font-bold tracking-tight text-white md:text-6xl">The Magic Selection</h2>
           </motion.div>
-          <div className="hidden gap-4 md:flex">
-            <button type="button" className="grid h-12 w-12 place-items-center rounded-full border border-white/10 text-white transition-all hover:bg-white/5 hover:border-white/20"><FaArrowLeft size={14} /></button>
-            <button type="button" className="grid h-12 w-12 place-items-center rounded-full border border-white/10 text-white transition-all hover:bg-white/5 hover:border-white/20"><FaArrowRight size={14} /></button>
-          </div>
+
         </div>
 
         <div className="grid gap-6 lg:grid-cols-3">
