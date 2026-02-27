@@ -7,7 +7,16 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-1">
-            <p className="font-heading text-4xl font-bold tracking-tight text-white mb-4">MOM'S<br /><span className="text-primary italic">MAGIC</span> POT</p>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="relative h-16 w-16">
+                <img src="/logo.png" alt="Logo" className="h-full w-full object-contain" />
+                <div className="absolute inset-0 rounded-full bg-primary/20 blur-xl -z-10" />
+              </div>
+              <div className="flex flex-col leading-none">
+                <p className="font-heading text-2xl font-bold tracking-tight text-white">MOM'S MAGIC</p>
+                <p className="text-[10px] font-bold tracking-[0.4em] text-primary">POT</p>
+              </div>
+            </div>
             <p className="text-sm leading-relaxed text-subtext">Premium comfort street food, crafted fresh with our signature magic spices in every bite.</p>
             <div className="mt-8 flex gap-4">
               {/* Social placeholders if needed */}
@@ -17,14 +26,18 @@ export default function Footer() {
           <div>
             <p className="text-[10px] font-black uppercase tracking-[0.4em] text-primary mb-6">Contact Us</p>
             <div className="space-y-4">
-              <p className="flex items-start gap-3 text-sm text-subtext leading-relaxed">
-                <FaMapMarkerAlt className="mt-1 shrink-0 text-primary" />
-                A-67, Rita Nagar Society, Vastral Road, Ahmedabad 380026
-              </p>
-              <p className="flex items-center gap-3 text-sm text-subtext font-bold">
-                <FaPhoneAlt className="shrink-0 text-primary" />
-                +91 88497 15081
-              </p>
+              <a href="https://maps.app.goo.gl/4891s61s61s61s61s">
+                <p className="flex items-start gap-3 text-sm text-subtext leading-relaxed">
+                  <FaMapMarkerAlt className="mt-1 shrink-0 text-primary" />
+                  A-67, Rita Nagar Society, Vastral Road, Ahmedabad 380026
+                </p>
+              </a>
+              <a href="tel:+918849715081">
+                <p className="flex items-center gap-3 text-sm text-subtext font-bold">
+                  <FaPhoneAlt className="shrink-0 text-primary" />
+                  +91 88497 15081
+                </p>
+              </a>
             </div>
           </div>
 
@@ -38,8 +51,19 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
-            <p className="text-[10px] font-black uppercase tracking-[0.4em] text-primary mb-6">Action</p>
+          <div className="flex flex-col gap-6">
+            <div className="overflow-hidden rounded-2xl ring-1 ring-white/10 grayscale contrast-125 opacity-70 transition-all hover:grayscale-0 hover:opacity-100">
+              <iframe
+                title="Google Maps Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.4646700000003!2d72.6484!3d23.0031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8668d2454a8b%3A0xe7819777995e8e7a!2sA-67%2C%20Rita%20Nagar%20Society%2C%20Vastral%20Road%2C%20Ahmedabad%2C%20Gujarat%20380026!5e0!3m2!1sen!2sin!4v1709030000000!5m2!1sen!2sin"
+                width="100%"
+                height="150"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
             <a
               href={zomatoOrderUrl}
               target="_blank"
