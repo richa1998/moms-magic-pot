@@ -111,7 +111,7 @@ export default function Highlights() {
                       </div>
                     )}
                   </div>
-                  <p className="mt-1 text-sm font-medium uppercase tracking-[0.2em] text-primary">{item.count} PRODUCTS</p>
+                  <p className="mt-1 text-sm font-medium tracking-[0.2em] text-primary">{item.count} Items</p>
                 </div>
 
                 <div className="relative mt-2 flex justify-end">

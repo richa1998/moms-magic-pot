@@ -50,7 +50,7 @@ export default function CategoryMenuSection() {
     <section id="full-menu" className="bg-[#0D0D0F] px-4 py-32 md:px-8">
       <div className="mx-auto max-w-7xl">
         <motion.div initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-12 text-center">
-          <p className="text-xs font-bold uppercase tracking-[0.3em] text-primary">Live Zomato Database</p>
+          <p className="text-xs font-bold uppercase tracking-[0.3em] text-primary">Live Zomato Items</p>
           <h2 className="mt-4 font-heading text-5xl font-bold tracking-tight text-white md:text-6xl">Explore Our Magic Menu</h2>
         </motion.div>
 

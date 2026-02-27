@@ -6,9 +6,9 @@ import Logo from './Logo'
 import { zomatoOrderUrl } from '../data/menu'
 
 const links = [
-  { href: '#home', label: 'Home' },
+  // { href: '#home', label: 'Home' },
   { href: '#categories', label: 'Our Menu' },
-  { href: '#full-menu', label: 'All Items' },
+  // { href: '#full-menu', label: 'All Items' },
   { href: '#offers', label: 'Best Picks' },
   { href: '#menu', label: 'Specialities' },
   { href: '#process', label: 'Trending' },
@@ -21,13 +21,13 @@ export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-4 pt-6 md:px-8">
       <nav className="mx-auto max-w-7xl">
-        <div className="glass-dark flex items-center justify-between rounded-full border border-white/10 px-6 py-3 shadow-glass">
-          <div className="flex items-center gap-12">
+        <div className="glass-dark flex items-center justify-between rounded-full border border-white/10 px-6 py-2 shadow-glass">
+          <div className="flex items-center gap-8 xl:gap-12">
             <Logo />
-            <ul className="hidden items-center gap-8 lg:flex">
+            <ul className="hidden items-center gap-4 xl:flex xl:gap-8">
               {links.map((link) => (
                 <li key={link.href}>
-                  <a href={link.href} className="text-xs font-bold uppercase tracking-[0.2em] text-white/70 transition-colors hover:text-primary">
+                  <a href={link.href} className="text-[10px] font-bold uppercase tracking-widest text-white/70 transition-colors hover:text-primary xl:text-xs xl:tracking-[0.2em]">
                     {link.label}
                   </a>
                 </li>
@@ -35,8 +35,8 @@ export default function Navbar() {
             </ul>
           </div>
 
-          <div className="flex items-center gap-6">
-            <a href="tel:+918849715081" className="hidden items-center gap-2 text-sm font-bold text-white/90 sm:flex lg:text-base">
+          <div className="flex items-center gap-4 xl:gap-6">
+            <a href="tel:+918849715081" className="hidden items-center gap-2 text-xs font-bold text-white/90 sm:flex xl:text-base">
               <div className="grid h-8 w-8 place-items-center rounded-full bg-primary/10 text-primary">
                 <FaPhoneAlt size={12} />
               </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
               href={zomatoOrderUrl}
               target="_blank"
               rel="noreferrer"
-              className="relative hidden items-center rounded-full bg-primary px-7 py-3 text-xs font-black uppercase tracking-wider text-white shadow-lg shadow-primary/25 transition-transform hover:scale-105 sm:flex"
+              className="relative hidden items-center rounded-full bg-primary px-5 py-2.5 text-[10px] font-black uppercase tracking-wider text-white shadow-lg shadow-primary/25 transition-transform hover:scale-105 sm:flex xl:px-7 xl:py-3 xl:text-xs"
             >
               <span className="flex items-center gap-2">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 shrink-0">
@@ -57,7 +57,7 @@ export default function Navbar() {
             </a>
             <button
               type="button"
-              className="grid h-10 w-10 place-items-center rounded-full border border-white/10 text-white lg:hidden"
+              className="grid h-10 w-10 place-items-center rounded-full border border-white/10 text-white xl:hidden"
               onClick={() => setOpen((prev) => !prev)}
             >
               {open ? <HiX size={20} /> : <HiMenuAlt3 size={20} />}

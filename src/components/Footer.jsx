@@ -9,10 +9,10 @@ export default function Footer() {
       <div className="absolute -bottom-24 -left-24 h-96 w-96 rounded-full bg-primary/5 blur-[120px]" />
 
       <div className="relative mx-auto max-w-7xl">
-        <div className="grid gap-16 lg:grid-cols-12">
+        <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           {/* Brand & About */}
-          <div className="lg:col-span-4">
-            <div className="flex items-center gap-5 mb-8">
+          <div className="flex flex-col items-center text-center lg:col-span-4 lg:items-start lg:text-left">
+            <div className="flex items-center gap-5 mb-6">
               <div className="relative h-20 w-20 group">
                 <img src="/logo.png" alt="Mom's Magic Pot" className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute inset-0 rounded-full bg-primary/20 blur-2xl -z-10 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
@@ -25,7 +25,7 @@ export default function Footer() {
             <p className="max-w-xs text-base leading-relaxed text-subtext/80">
               Hand-crafted street food with a dash of magic. We bring premium flavors to your plate, fresh every single day.
             </p>
-            <div className="mt-10 flex gap-5">
+            <div className="mt-8 flex gap-5">
               {[
                 { icon: <FaInstagram size={18} />, href: 'https://www.instagram.com/moms_magic_pott/' },
                 { icon: <FaFacebook size={18} />, href: 'https://www.facebook.com/profile.php?id=61587792202825' },
@@ -42,36 +42,18 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div className="lg:col-span-2">
-            <h4 className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-primary">Magic Links</h4>
-            <ul className="space-y-4">
-              {[
-                { label: 'Our Menu', href: '#categories' },
-                { label: 'Featured Picks', href: '#offers' },
-                { label: 'Trending', href: '#process' },
-                { label: 'Reviews', href: '#testimonials' },
-              ].map((link) => (
-                <li key={link.label}>
-                  <a href={link.href} className="text-sm text-subtext transition-colors hover:text-white">
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Contact Details */}
-          <div className="lg:col-span-3">
+          <div className="sm:col-span-6 lg:col-span-4 lg:pl-8">
             <h4 className="mb-8 text-xs font-black uppercase tracking-[0.3em] text-primary">Get in Touch</h4>
             <div className="space-y-6">
-
-              <div className="mt-1 grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
-                <FaMapMarkerAlt size={14} />
+              <div className="group flex items-start gap-4">
+                <div className="mt-1 grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary">
+                  <FaMapMarkerAlt size={14} />
+                </div>
+                <p className="text-sm leading-relaxed text-subtext">
+                  A-67, Rita Nagar Society,<br />Vastral Road, Ahmedabad<br />Gujarat 380026
+                </p>
               </div>
-              <p className="text-sm leading-relaxed text-subtext transition-colors group-hover:text-white">
-                A-67, Rita Nagar Society,<br />Vastral Road, Ahmedabad<br />Gujarat 380026
-              </p>
               <a
                 href="tel:+918849715081"
                 className="group flex items-center gap-4 transition-colors hover:text-white"
@@ -87,9 +69,9 @@ export default function Footer() {
           </div>
 
           {/* Map & Action */}
-          <div className="lg:col-span-3">
+          <div className="sm:col-span-6 lg:col-span-4">
             <div className="glass-dark group relative overflow-hidden rounded-[2rem] border border-white/10 p-2 shadow-2xl transition-all hover:border-primary/30">
-              <div className="h-40 w-full overflow-hidden rounded-2xl grayscale transition-all duration-700 group-hover:grayscale-0">
+              <div className="h-44 w-full overflow-hidden rounded-2xl grayscale transition-all duration-700 group-hover:grayscale-0">
                 <iframe
                   title="Mom's Magic Pot Location"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3672.573916372413!2d72.6422023!3d23.0026906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8700377438e5%3A0xf4d4a85726ab95eb!2sMom%27s%20Magic%20Pot!5e0!3m2!1sen!2sin!4v1772190725736!5m2!1sen!2sin"
