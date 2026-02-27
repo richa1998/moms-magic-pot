@@ -1,4 +1,3 @@
-import { Loader } from '@googlemaps/js-api-loader'
 
 const FALLBACK_REVIEWS = [
   {
@@ -36,6 +35,16 @@ const FALLBACK_REVIEWS = [
 const PLACE_ID = import.meta.env.VITE_GOOGLE_PLACE_ID || ''
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || ''
 
+const loadMapsLoader = async () => {
+  try {
+    const mapsModule = await import(/* @vite-ignore */ '@googlemaps/js-api-loader')
+    return mapsModule.Loader
+  } catch (error) {
+    console.warn('Google Maps loader package is unavailable. Using fallback reviews.')
+    return null
+  }
+}
+
 export const fetchGoogleReviews = async () => {
   if (!PLACE_ID || !API_KEY || API_KEY === 'YOUR_API_KEY_HERE') {
     console.warn('Google Maps Place ID or API Key missing. Using fallback reviews.')
@@ -43,6 +52,11 @@ export const fetchGoogleReviews = async () => {
   }
 
   try {
+    const Loader = await loadMapsLoader()
+    if (!Loader) {
+      return FALLBACK_REVIEWS
+    }
+
     const loader = new Loader({
       apiKey: API_KEY,
       version: 'weekly',
