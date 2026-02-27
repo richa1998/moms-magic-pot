@@ -1,3 +1,5 @@
+import { Loader } from '@googlemaps/js-api-loader'
+
 const FALLBACK_REVIEWS = [
   {
     name: 'Parita Dabhi',
@@ -35,28 +37,44 @@ const PLACE_ID = import.meta.env.VITE_GOOGLE_PLACE_ID || ''
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || ''
 
 export const fetchGoogleReviews = async () => {
-  if (!PLACE_ID || !API_KEY) {
+  if (!PLACE_ID || !API_KEY || API_KEY === 'YOUR_API_KEY_HERE') {
     console.warn('Google Maps Place ID or API Key missing. Using fallback reviews.')
     return FALLBACK_REVIEWS
   }
 
   try {
-    const response = await fetch(
-      `https://maps.googleapis.com/maps/api/place/details/json?place_id=${PLACE_ID}&fields=reviews,rating,user_ratings_total&key=${API_KEY}`
-    )
-    const data = await response.json()
+    const loader = new Loader({
+      apiKey: API_KEY,
+      version: 'weekly',
+      libraries: ['places'],
+    })
 
-    if (data.result && data.result.reviews) {
-      return data.result.reviews.map((r) => ({
-        name: r.author_name,
-        text: r.text,
-        tag: r.relative_time_description || 'Google Review',
-        rating: r.rating,
-        profilePhoto: r.profile_photo_url,
-      }))
-    }
+    const google = await loader.load()
+    const service = new google.maps.places.PlacesService(document.createElement('div'))
 
-    return FALLBACK_REVIEWS
+    return new Promise((resolve) => {
+      service.getDetails(
+        {
+          placeId: PLACE_ID,
+          fields: ['reviews', 'rating', 'user_ratings_total'],
+        },
+        (place, status) => {
+          if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews) {
+            const mappedReviews = place.reviews.map((r) => ({
+              name: r.author_name,
+              text: r.text,
+              tag: r.relative_time_description || 'Google Review',
+              rating: r.rating,
+              profilePhoto: r.profile_photo_url,
+            }))
+            resolve(mappedReviews.length > 0 ? mappedReviews : FALLBACK_REVIEWS)
+          } else {
+            console.warn('Google Places API returned status:', status)
+            resolve(FALLBACK_REVIEWS)
+          }
+        }
+      )
+    })
   } catch (error) {
     console.error('Error fetching Google Reviews:', error)
     return FALLBACK_REVIEWS

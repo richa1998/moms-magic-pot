@@ -1,31 +1,40 @@
-﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="favTitle">
-  <title id="favTitle">Mom's Magic Pot Favicon</title>
+﻿<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="iconTitle iconDesc">
+  <title id="iconTitle">Mom's Magic Pot Icon</title>
+  <desc id="iconDesc">Cooking pot with spoon and spatula.</desc>
   <defs>
-    <linearGradient id="favBg" x1="22" y1="10" x2="112" y2="120" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="76" y1="50" x2="436" y2="462" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#173627"/>
       <stop offset="1" stop-color="#0F1A13"/>
     </linearGradient>
-    <linearGradient id="favPot" x1="36" y1="42" x2="90" y2="93" gradientUnits="userSpaceOnUse">
+    <linearGradient id="pot" x1="156" y1="182" x2="352" y2="372" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#E8F8C8"/>
       <stop offset="1" stop-color="#72B67A"/>
     </linearGradient>
+    <linearGradient id="steam" x1="224" y1="102" x2="298" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFD8" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#CBECC4" stop-opacity="0.28"/>
+    </linearGradient>
   </defs>
 
-  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#favBg)"/>
-  <path d="M52 35C54 30 60 30 62 35C64 39 63 43 60 45" stroke="#DDF7CC" stroke-width="3.6" stroke-linecap="round" fill="none"/>
-  <path d="M62 31C64 26 70 26 72 31C74 34 73 38 70 40" stroke="#CBECC4" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" stroke="#BFE7C6" stroke-opacity="0.34" stroke-width="8"/>
 
-  <ellipse cx="64" cy="50" rx="20" ry="6" fill="#3A6B47"/>
-  <rect x="44" y="50" width="40" height="7" rx="3.5" fill="#2E563C"/>
-  <circle cx="64" cy="45" r="3" fill="#DFF4C2"/>
-  <path d="M36 57H92V69C92 82 80 92 64 92C48 92 36 82 36 69V57Z" fill="url(#favPot)"/>
-  <path d="M31 62C27 62 24 66 24 70C24 74 27 78 31 78" stroke="#6FAF77" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M97 62C101 62 104 66 104 70C104 74 101 78 97 78" stroke="#6FAF77" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M228 144C236 128 253 128 261 144C267 155 266 169 258 176" stroke="url(#steam)" stroke-width="13" stroke-linecap="round" fill="none"/>
+  <path d="M270 132C278 116 296 116 303 132C308 141 306 154 299 161" stroke="url(#steam)" stroke-width="11" stroke-linecap="round" fill="none"/>
 
-  <g stroke="#BDE6B5" stroke-width="2.8" stroke-linecap="round" fill="none" opacity="0.95">
-    <path d="M50 102L57 94"/>
-    <ellipse cx="47" cy="104" rx="3" ry="2" transform="rotate(-34 47 104)"/>
-    <path d="M78 102L71 94"/>
-    <rect x="78" y="100" width="5" height="3.5" rx="0.8" transform="rotate(34 80.5 101.75)"/>
+  <ellipse cx="256" cy="204" rx="82" ry="22" fill="#3A6B47"/>
+  <rect x="174" y="204" width="164" height="26" rx="13" fill="#2E563C"/>
+  <circle cx="256" cy="188" r="12" fill="#DFF4C2"/>
+
+  <path d="M148 230H364V280C364 339 317 386 256 386C195 386 148 339 148 280V230Z" fill="url(#pot)"/>
+  <path d="M148 230H364V280C364 339 317 386 256 386C195 386 148 339 148 280V230Z" stroke="#F3FFE4" stroke-opacity="0.42" stroke-width="6"/>
+  <path d="M132 252C113 252 99 267 99 286C99 305 113 320 132 320" stroke="#6FAF77" stroke-width="13" stroke-linecap="round" fill="none"/>
+  <path d="M380 252C399 252 413 267 413 286C413 305 399 320 380 320" stroke="#6FAF77" stroke-width="13" stroke-linecap="round" fill="none"/>
+
+  <g stroke="#BDE6B5" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.95">
+    <path d="M194 426L240 382"/>
+    <ellipse cx="187" cy="434" rx="15" ry="10" transform="rotate(-33 187 434)"/>
+    <path d="M318 426L272 382"/>
+    <rect x="319" y="417" width="24" height="16" rx="3" transform="rotate(34 331 425)"/>
   </g>
 </svg>
